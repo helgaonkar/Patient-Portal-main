@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+keycloak:
+  realm: rakesh
+  auth-server-url: http://localhost:8180/
+  resource: spring-boot
+  public-client: true
+  bearer-only: true
